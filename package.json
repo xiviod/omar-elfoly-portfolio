@@ -1,1 +1,28 @@
-{  "name": "omar-elfoly-portfolio",  "version": "0.0.0",  "private": true,  "scripts": {    "dev": "vite",    "build": "vite build",    "preview": "vite preview"  },  "dependencies": {    "react": "^18.2.0",    "react-dom": "^18.2.0",    "framer-motion": "^10.12.16"  },  "devDependencies": {    "vite": "^5.0.0",    "@vitejs/plugin-react": "^4.0.0",    "tailwindcss": "^3.5.0",    "postcss": "^8.4.0",    "autoprefixer": "^10.4.0"  }}
+{
+  "name": "omar-elfoly-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8",
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.11.17"
+  }
+}
