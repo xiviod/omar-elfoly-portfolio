@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/omar-elfoly-portfolio/',
   plugins: [react()],
+  build: {
+    sourcemap: true,
+  },
 })
